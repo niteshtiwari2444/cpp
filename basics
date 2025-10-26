@@ -1,0 +1,295 @@
+//     BASICS PROGRAM IN CPP     //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+//  WHAT IS DRY RUN ?   when we run or execute the program without checking whats its output.
+
+
+//    HOW TO MOVE IN NEXT LINE   //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"hello world"<<endl;   //or- "/n"
+//     cout<<"hy";
+//     return 0;
+// }  
+
+
+
+
+// PRINTNG NUMBERS  //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"4"<<endl; 
+//     cout<<4<<endl;
+//     cout<<4*3;  //number
+//     cout<<"4*3";  //string
+//     return 0;
+// } 
+
+
+
+
+//    VARIABLE AND THEIR DECLERATION   //
+// 1-
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x,y;  //decleration
+//     x=5; //initilization
+//     y=2;
+//     cout<<x+y<<endl;
+//     cout<<"hello world";  
+//     return 0;
+
+
+
+
+// 2- UPDATION OF A VARIABLE
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=5;
+//     cout<<x<<endl;
+//     x=24<<endl;
+//     cout<<x;
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+//       ARTHEMTIC OPERATORS     //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=7,y=2;
+//     cout<<x+y<<endl;
+//     cout<<x-y<<endl;
+//     cout<<x*y<<endl;
+//     cout<<x/y<<endl;//always give nearest round off to lowest int 
+//     float a=5.0,b=2.0;//for storing real numbers
+//     cout<<a/b<<endl;
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+
+//     INCREMENT - DECREMENT OPERATORS         //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=5;
+//     // cout<<x++<<endl;//post increment
+//     // cout<<x<<endl;
+//     // cout<<++x<<endl;//pre increment
+//     // cout<<x--<<endl;//post decrement
+//     // cout<<--x<<endl;//pre decrement
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+
+// //    Calculating area of circle    //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     float pi=3.14;
+//     float r;
+//     cin>>r;
+//     cout<<"area of circle : "<<pi*(r*r); 
+//     return 0;
+// } 
+
+
+
+
+
+//      CALCULATING SIMPLE INTREST    //
+//     BASICS PROGRAM IN CPP     //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+//  WHAT IS DRY RUN ?   when we run or execute the program without checking whats its output.
+
+
+//    HOW TO MOVE IN NEXT LINE   //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"hello world"<<endl;   //or- "/n"
+//     cout<<"hy";
+//     return 0;
+// }  
+
+
+
+
+// PRINTNG NUMBERS  //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     cout<<"4"<<endl; 
+//     cout<<4<<endl;
+//     cout<<4*3;  //number
+//     cout<<"4*3";  //string
+//     return 0;
+// } 
+
+
+
+
+//    VARIABLE AND THEIR DECLERATION   //
+// 1-
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x,y;  //decleration
+//     x=5; //initilization
+//     y=2;
+//     cout<<x+y<<endl;
+//     cout<<"hello world";  
+//     return 0;
+
+
+
+
+// 2- UPDATION OF A VARIABLE
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=5;
+//     cout<<x<<endl;
+//     x=24<<endl;
+//     cout<<x;
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+//       ARTHEMTIC OPERATORS     //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=7,y=2;
+//     cout<<x+y<<endl;
+//     cout<<x-y<<endl;
+//     cout<<x*y<<endl;
+//     cout<<x/y<<endl;//always give nearest round off to lowest int 
+//     float a=5.0,b=2.0;//for storing real numbers
+//     cout<<a/b<<endl;
+//     cout<<x%y<<endl;
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+
+//     INCREMENT - DECREMENT OPERATORS         //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x=5;
+//     // cout<<x++<<endl;//post increment
+//     // cout<<x<<endl;
+//     // cout<<++x<<endl;//pre increment
+//     // cout<<x--<<endl;//post decrement
+//     // cout<<--x<<endl;//pre decrement
+//     cout<<"hello world";  
+//     return 0;
+// } 
+
+
+
+
+
+//    Calculating area of circle    //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     float p,r,t;
+//     cin>>p;
+//     cin>>r;
+//     cin>>t;
+//     cout<<"simple intrest is : "<<(p*r*t)/100;
+//     return 0;
+// }  
+
+
+
+
+
+//     CALCULATE VOLUME OF SPHERE      //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     float pi=3.14;
+//     float r;
+//     cout<<"enter the radius : ";
+//     cin>>r;
+//     cout<<"volume of sphere is : "<<4/3*pi*(r*r*r);
+//     return 0;
+// }   
+
+
+
+
+
+//          TYPECASTING      (CONVERSION OF DATATYPE)     //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int x;
+//     cin>>x;
+//     float y=(float)x;//typecasting
+//     cout<<y/2;
+
+
+
+
+
+//    IN SAME PRECEDENCE WE GO FROM LEFT TO RIGHT TO SOLVE ANY EQUQATION  //
+
+
+
+//   ASCII VALUES   //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     char ch;
+//     cin>>ch;
+//     // cout<<(int)ch;   char to int
+//     return 0;
+// }   
+
+
+
+
+
+
+
+

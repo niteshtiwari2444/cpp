@@ -1,0 +1,60 @@
+                    //  LOOP    //
+            // 3 PARAMETERS OF LOOP  //
+            // 1-INITILIZATION
+            // 2-CONDITION(WORK)
+            // 3-ENCRIMENT OR DECREMENT
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     for(int i;i<=10;i++){       //declaration , initilization
+//         cout<<"hello world"<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+                //     PRINT HELLO WORLD N NUMBERS OF TIME     //
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter a number : ";
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         cout<<"hello world"<<endl;
+//     }
+//     return 0;
+// } 
+
+
+
+
+
+            //   PRINT NUMBER FROM 1 TO 100   //
+            
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     for(int i=1;i<=100;i++){
+//         cout<<i<<endl;
+//     }
+//     return 0;
+// }
+
+
+
+
+            //  PRINT ALL THE EVEN NUMBERS FROM 1 TO 100   //
+
+#include <iostream>
+using namespace std;
+int main() {
+    for(int i=1;i<=100;i++){
+        cout<<i<<endl;
+    }
+    return 0;
+}

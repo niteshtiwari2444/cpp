@@ -128,3 +128,24 @@ int main() {
 
 
 
+                //   DISPLAY THE GP UPTO N TERMS   //
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int a=1;
+//     int n;
+//     cout<<"enter n : ";
+//     cin>>n;
+//     for(int i=1;i<=n;i++){
+//         cout<<a<<endl;
+//         a=a*2;
+//     }
+//     return 0;
+// }
+
+
+
+
+            //   WAP FOR HIGHEST FACTOR OF NUMBER N  //
+

@@ -146,6 +146,283 @@ int main() {
 
 
 
+                 //   CHECK COMPOSITE OR NOT    //
 
-            //   WAP FOR HIGHEST FACTOR OF NUMBER N  //
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     for(int i = 2;i<=n/2;i++){
+//         if(n%i==0){
+//             cout<<"it is a composite number";
+//             break;
+//         }
+//     }
+//     return 0;
+// }
 
+
+
+
+
+                        //  BREAK STATEMENT //
+                //     BY USING BOOL PRIME OR COMPOSITE    // 
+                    
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     bool flag= true;    // number is prime
+//     for(int i = 2;i<=n/2;i++){
+//         if(n%i=0){
+//             flag=false;
+//             break;
+//         }
+//     }
+//     if(n==1){
+//         cout<<"neither prime nor composite";
+//     }
+//     if(flag==true){
+//         cout<<"Prime";
+//     }
+//     else{
+//         cout<<"composite";
+//     }
+//     return 0;
+// }
+
+
+
+
+                    //  CONTINUE STATEMENT  //
+                        // SKIP A ROUNG // 
+
+            //  SKIP ODD NUMBERS FROM 1 TO 100  //                        
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     for(int i=1;i<=100;i++){
+//         if(i%2==0){
+//             continue;
+//         }
+//         cout<<i<<" ";
+
+//     }
+//     return 0;
+// }
+
+
+
+
+
+                        //  WHILE LOOP  //
+// USED IN MULTIPLE COND. OR WIRED SENARIOS OR DON'T KNOW HOW MUCH TIME RUN//
+                    
+                    //    BASIC PROGRAM    // 
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int i=0;
+//     while(i<=10){
+//         cout<<i;
+//         i++;
+//     }
+//     return 0;
+// }
+
+
+
+
+                    //   DO WHILE LOOP  //   (ALWAYS RUN MIN 1 TIME)
+                //     SIMPLE PROGRAM       //
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int i=11;
+//     do{
+//         cout<<i<<" ";
+//         i++;
+//     } while(i<=10);
+//     return 0;
+// }
+
+
+
+
+                    //  QUESTIONS  //
+        
+        //  WAP TO COUNT DIGIT OF GIVEN NUMBERS  //
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int count=0;
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     while(n>0){
+//         n=n/10;
+//         count++;
+//     }
+//     cout<<count;
+//     return 0;
+// }
+
+
+
+
+
+            //  WAP TO PRINT SUM OF DIGITS OF GIVEN NO.  //
+                // n%10    gives last diggit
+                
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter a number : ";
+//     cin>>n;
+//     int ld;
+//     int sum;
+//     while(n!=0){
+//         ld=n%10;
+//         n=n/10;
+//         sum=sum+ld;
+//     }
+//     cout<<sum;
+//     return 0;
+// }
+
+
+
+
+            //   WAP TO PRINT PRODUCT OF DIGIT OF A GIV NO.  //
+                
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     int ld;
+//     int mul=1;
+//     while(n!=0){
+//         ld=n%10;
+//         n=n/10;
+//         mul=mul*ld;
+//     }
+//     cout<<mul;
+//     return 0;
+// }
+
+
+
+
+            //  WAP TO PRINT REVERSE OF A NUMBER  //
+            
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     int rev=0;
+//     while(n>0){
+//         int ld=n%10;
+//         n=n/10;
+//         rev=rev*10;
+//         rev=ld+rev;
+//     }
+//     cout<<rev;
+//     return 0;
+// }
+
+
+
+
+
+            // WAP TO PRINT SUM OF GIV NO. AND ITS REVERSE //
+    
+// #include <iostream>        
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     int rev=0;
+//     int sum = 0;
+//     while(n>0){
+//         int ld=n%10;
+//         n=n/10;
+//         sum=sum+ld;
+//         rev=rev*10;
+//         rev=ld+rev;
+//     }
+//     cout<<"reverse is : "<<rev<<endl;
+//     cout<<"sum is: "<<sum<<endl;
+//     cout<<"sum of both is : "<<rev+sum;
+//     return 0;
+// }
+
+
+
+
+            //  PRINT THE FACTORIAL OF GIVEN NO. N  //
+            
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     int fact=1;
+//     for(int i=1;i<=n;i++){
+//         if(n%i==0){
+//             fact=fact*i;
+//         }
+//     }
+//     cout<<fact;
+//     return 0;
+// }
+
+
+
+
+
+            //  FACTORIAL OF FIRST N NUMBERS  //
+            
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     int n;
+//     cout<<"enter the number : ";
+//     cin>>n;
+//     int fact=1;
+//     for(int i=1;i<=n/2;i++){
+//         if(n%i==0){
+//             fact=fact*i;
+//         }
+//     }
+//     cout<<fact;
+//     return 0;
+// }
+
+
+
+
+        // PRINT ALL ASCII VAL AND THEIR EQUI(CHAR ) OF 26 ALPHABET //
+        
+// #include <iostream>
+// using namespace std;
+// int main() {
+//     char n;
+//     cin>>n;
+//     while(true){
+//         cout<<n<<" : "<<(int)n;
+//         n++;
+//     }
+// }

@@ -1,0 +1,294 @@
+                //      FUNCTIONS       //
+                
+                
+                   // WHAT?  AND  WHY?
+      //  TO STOP REPEATATION AND INCREASE REUSEBILITY //
+      
+      
+                        // BASICS SYNTAX //
+            // fun(){
+            //     //code
+            // }
+            
+            
+                        //EXAMPLE// 
+// #include <iostream>
+// using namespace std;
+// void greet(){
+//     cout<<"good morning"<<endl;
+//     cout<<"how are you"<<endl;
+//      return;
+// }
+// void india(){
+//     cout<<"hello india"<<endl;
+// }
+// int main() {
+//     greet();//function call
+//     cout<<"hey"<<endl;
+//     india();
+// }
+
+
+
+
+                //   IMP POINTS   //
+                
+    // 1- MAIN() - IT CAN'T BE CALL MORE THAN ONCE (MAIN FUN)
+    // 2- return; - KEYWORD THAT CLOSE THE FUNCTION 
+    // 3- unlimited function
+    
+    
+                
+                
+                //  RETURN TYPE  //
+        // 1- VOID - DOSENT RETURN ANY VALUE
+        
+        
+                // HOW FUNCTION WORKS //
+         // EAK KE ANDAR DOSRA , DUSRE KE ANDAR TESRA //
+        
+// #include <iostream>
+// using namespace std;
+// void greet(){
+//     cout<<"good morning"<<endl;
+//     cout<<"how are you"<<endl;
+//      return;
+// }
+// void india(){
+//     cout<<"hello india"<<endl;
+//     greet();   //FUNCTION KE ANDAR FUNCTION
+// }
+// int main() {
+//     greet();//function call
+//     cout<<"hey"<<endl;
+//     india();
+// }
+
+
+
+                    
+                    //  RETURN TYPE  //
+                //SUM FUNCTION SSE SAMAJHTE HAN//
+    
+    // 1-VOID
+// #include <iostream>
+// using namespace std;
+// void sum(int a, int b){               //formal parameters
+//     cout<<"sum is : "<<a+b;
+// }
+// int main() {
+//     int a;
+//     cout<<"enter a : ";
+//     cin>>a;
+//     int b;
+//     cout<<"enter b : ";
+//     cin>>b;
+//     sum(a,b);                           // actual parameter( value)
+// }
+
+
+    //   2-INT
+// #include <iostream>
+// using namespace std;
+// int sum(int a, int b){               //formal parameters
+//     return a+b;
+// }
+// int main() {
+//     int a;
+//     cout<<"enter a : ";
+//     cin>>a;
+//     int b;
+//     cout<<"enter b : ";
+//     cin>>b;
+//     cout<<sum(a,b);                     // actual parameter(pass by value)
+// }
+
+
+
+
+
+
+        // LIBRARY FUNCTIONS // (FOR SMALL TASKS  EX - SQRT(),MIN())
+            
+//   1- sqrt()
+//   2- cbrt()
+//   3- min()
+//   4- max()
+//   5- pow(a,b)
+
+
+// #include <iostream>  //header file
+// #include <cmath>
+// using namespace std;
+// int main(){
+//     cout<<sqrt(4000)<<endl;//(square root)//library function
+//     cout<<cbrt(4000)<<endl;//(cube root)
+//     cout<<pow(2,2)<<endl;//(power)
+//     cout<<min(4,2)<<endl;//(minimum)
+//     cout<<max(4,2)<<endl;//(maximum)
+// }
+
+
+
+
+
+
+
+        //  QUES - COMBINATION AND PERMUTATION  //
+        
+// #include <iostream>
+// using namespace std;
+// int fact(int x){
+//     int l=1;
+//     for(int i=1;i<=x;i++){
+//         if(x%i==0){
+//             l=l*i;
+//         }
+//     }
+//     return l; 
+// }
+// int main() {
+//     int n;
+//     cout<<"enter the number n : ";
+//     cin>>n;
+//     int r;
+//     cout<<"enter the number r : ";
+//     cin>>r;
+//     int c=n-r;
+//     // int factOfn=1;
+//     // for(int i=1;i<=n;i++){
+//     //     if(n%i==0){
+//     //         factOfn=factOfn*i;
+//     //     }
+//     // }
+//     // int factOfr=1;
+//     // for(int j=1;j<=r;j++){
+//     //     if(r%j==0){
+//     //         factOfr=factOfr*j;
+//     //     }
+//     // }
+//     // int factOfc=1;
+//     // for(int k=1;k<=c;k++){
+//     //     if(c%k==0){
+//     //         factOfc=factOfc*k;
+//     //     }
+//     // }
+//     cout<<"factorial of n : "<<fact(n)<<endl;//<<factOfn<<endl;
+//     cout<<"factorial of r : "<<fact(r)<<endl;//<<factOfr<<endl;
+//     cout<<"factorial of c : "<<fact(c)<<endl;//<<factOfc<<endl;
+//     cout<<"combination is : "<<fact(n)/fact(r)*fact(c);
+//     return 0;
+// }
+
+
+
+
+
+                // SCOPE OF VARIABLE //  (VARIABLE KE AUKAT)
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     for(int i=1;i<=10;i++){
+//         cout<<i<<endl;
+//     }
+//     cout<<i<<endl; // cant be printed outside the loop the scope of variable i is only inside trhe for loop it is decleared//
+// }
+                
+
+
+
+
+                // FORMAL ANDD ACTUAL PARAMETERS //
+        // 1-FORMAL PARAMETERS - VARIABLES THAT STORES VALUES //
+        // 2-ACTUAL PARAMETERS - ACTUALVALUES //
+
+
+
+
+
+            // *    //    SWAP TWO NUMBERS    //   *
+    //   MEANING - SWAP THE VALUES OF TWO VARIABLES   //
+
+            // 1-METHOD USING THIRD VARIABLE //
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int x=2;
+//     int y=5;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+//     int temp;
+//     temp=x;
+//     x=y;
+//     y=temp;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+// }
+
+
+            // 2- WITHOUT USING THIRD VARIABLE//
+
+// #include <iostream>
+// using namespace std;
+// int main(){
+//     int x=2;
+//     int y=4;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+//     x=x+y;
+//     y=x-y;
+//     x=x-y;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+// }
+    
+
+
+
+
+
+            // PASS BY VALUE & PASS BY REFERENCE //
+
+// 1- PASS BY VALUE
+
+// #include <iostream>
+// using namespace std;
+// int swap(int x,int y){
+//     x=x+y;
+//     y=x-y;
+//     x=x-y;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+//     return 0;
+// }
+// int main(){
+//     int x=2;
+//     int y=4;
+//     swap(x,y);    // pass by value - (only values goes to the function)
+// }
+
+
+
+
+
+// 2- PASS BY REFERENCEN- 2 WAYS
+
+// 1- WAY
+
+// #include <iostream>
+// using namespace std;
+// int swap(int& x,int& y){          //PASSES BY REFERENCE NOT BY VALUE
+//     x=x+y;
+//     y=x-y;
+//     x=x-y;
+//     cout<<x<<endl;
+//     cout<<y<<endl;
+//     return 0;
+// }
+// int main(){
+//     int x=2;
+//     int y=4;
+//     swap(x,y);
+// }
+
